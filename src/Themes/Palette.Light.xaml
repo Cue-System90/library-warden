@@ -1,0 +1,26 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Helles Design (Akzent: Petrol) -->
+    <SolidColorBrush x:Key="Lw.WindowBg" Color="#F2F4F4"/>
+    <SolidColorBrush x:Key="Lw.Chrome" Color="#F2F4F4"/>
+    <SolidColorBrush x:Key="Lw.Surface" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="Lw.SurfaceAlt" Color="#F8FAFA"/>
+    <SolidColorBrush x:Key="Lw.HeaderBg" Color="#EEF3F2"/>
+    <SolidColorBrush x:Key="Lw.Line" Color="#DCE3E2"/>
+    <SolidColorBrush x:Key="Lw.GridLine" Color="#ECF0EF"/>
+    <SolidColorBrush x:Key="Lw.Text" Color="#1A1F1E"/>
+    <SolidColorBrush x:Key="Lw.TextMuted" Color="#5B6664"/>
+    <SolidColorBrush x:Key="Lw.Accent" Color="#0F766E"/>
+    <SolidColorBrush x:Key="Lw.AccentHover" Color="#0D5F59"/>
+    <SolidColorBrush x:Key="Lw.OnAccent" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="Lw.AccentFg" Color="#0F766E"/>
+    <SolidColorBrush x:Key="Lw.AccentSoft" Color="#DDF1EE"/>
+    <SolidColorBrush x:Key="Lw.Hover" Color="#E6ECEB"/>
+    <SolidColorBrush x:Key="Lw.Pressed" Color="#D7E0DF"/>
+    <SolidColorBrush x:Key="Lw.Track" Color="#E3EAE9"/>
+    <SolidColorBrush x:Key="Lw.Ok" Color="#2E7D1E"/>
+    <SolidColorBrush x:Key="Lw.Warn" Color="#A35400"/>
+    <SolidColorBrush x:Key="Lw.Bad" Color="#B3261E"/>
+    <SolidColorBrush x:Key="Lw.Info" Color="#2457A6"/>
+    <SolidColorBrush x:Key="Lw.CloseHover" Color="#C42B1C"/>
+</ResourceDictionary>

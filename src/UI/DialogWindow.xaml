@@ -1,0 +1,25 @@
+<Window x:Class="LibraryWarden.UI.DialogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        SizeToContent="WidthAndHeight" ResizeMode="NoResize" ShowInTaskbar="False"
+        WindowStartupLocation="CenterOwner" Icon="/Assets/app.ico"
+        FontFamily="Segoe UI" FontSize="13" UseLayoutRounding="True"
+        Background="{DynamicResource Lw.Surface}" Foreground="{DynamicResource Lw.Text}">
+    <Grid x:Name="Root" MinWidth="380" MaxWidth="560">
+        <Grid.LayoutTransform>
+            <ScaleTransform x:Name="RootScale" ScaleX="1" ScaleY="1"/>
+        </Grid.LayoutTransform>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <DockPanel Margin="24,22,28,22">
+            <TextBlock x:Name="IconText" DockPanel.Dock="Left" FontFamily="{StaticResource Lw.IconFont}" FontSize="28"
+                       Margin="0,0,18,0" VerticalAlignment="Top"/>
+            <TextBlock x:Name="MessageText" TextWrapping="Wrap" VerticalAlignment="Center" LineHeight="20"/>
+        </DockPanel>
+        <Border Grid.Row="1" Background="{DynamicResource Lw.WindowBg}" BorderBrush="{DynamicResource Lw.Line}" BorderThickness="0,1,0,0" Padding="16,12">
+            <StackPanel x:Name="ButtonPanel" Orientation="Horizontal" HorizontalAlignment="Right"/>
+        </Border>
+    </Grid>
+</Window>

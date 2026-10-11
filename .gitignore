@@ -1,0 +1,25 @@
+# Build-Ausgaben
+bin/
+obj/
+dist/
+*.user
+.vs/
+*.suo
+
+# Lokale Sicherungen (enthalten alte Builds/Stände)
+_sicherung/
+
+# Persönliche Daten – gehören nie ins Repository (Schutz, falls sie versehentlich hierher kopiert werden)
+settings.json
+settings.json.bak
+state.json
+state.json.bak
+*.tmp
+token.bin
+*.log
+WebView2/
+EBWebView/
+
+# Test- und Vorschau-Ausgaben
+librarywarden-*.txt
+*.error.txt
